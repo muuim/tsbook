@@ -1,0 +1,93 @@
+---
+title: See this and it'll be solved right away
+description: The Error Handbook for All TypeScript Developers
+template: splash
+hero:
+  tagline: The Error Handbook for All TypeScript Developers
+  image:
+    file: ../../assets/typescript.svg
+  actions:
+    - text: Getting Started
+      link: intro
+      icon: right-arrow
+    - text: View GitHub
+      link: https://github.com/muuim/tsbook
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Why tsbook?
+
+<CardGrid>
+  <Card title="Practical Solutions" icon="approve-check">
+    Real-world examples with multiple solution options for every error
+  </Card>
+  <Card title="Quick Reference" icon="rocket">
+    Find and fix TypeScript errors fast with clear explanations
+  </Card>
+  <Card title="Open Source" icon="github">
+    Community-driven documentation, contributions welcome
+  </Card>
+  <Card title="Comprehensive" icon="open-book">
+    Covers all common TypeScript errors with practical examples
+  </Card>
+</CardGrid>
+
+## Popular Errors
+
+<CardGrid>
+  <Card title="TS2322: Type 'string | undefined' not assignable" icon="error">
+    Learn how to handle optional values safely
+    
+    [View solution →](/errors/null-undefined/string-undefined-not-assignable-to-string/)
+  </Card>
+  <Card title="TS2532: Object is possibly 'undefined'" icon="warning">
+    Master optional chaining and type narrowing
+    
+    [View solution →](/errors/null-undefined/object-is-possibly-undefined/)
+  </Card>
+  <Card title="TS2339: Property does not exist on type" icon="seti:config">
+    Fix interface and type definition issues
+    
+    [View solution →](/errors/property-access/property-does-not-exist-on-type/)
+  </Card>
+  <Card title="TS2307: Cannot find module" icon="puzzle">
+    Resolve import and module resolution errors
+    
+    [View solution →](/errors/modules/cannot-find-module/)
+  </Card>
+</CardGrid>
+
+## Categories
+
+<CardGrid stagger>
+  <Card title="Null & Undefined" icon="question">
+    Common errors with nullable values
+  </Card>
+  <Card title="Type Assignment" icon="random">
+    Type compatibility issues
+  </Card>
+  <Card title="Property Access" icon="open-book">
+    Object and property errors
+  </Card>
+  <Card title="Function Calls" icon="rocket">
+    Function signature mismatches
+  </Card>
+  <Card title="Async & Promises" icon="approve-check">
+    Asynchronous code errors
+  </Card>
+  <Card title="Classes" icon="star">
+    Class-related errors
+  </Card>
+  <Card title="Generics" icon="setting">
+    Generic type constraints
+  </Card>
+  <Card title="Modules" icon="seti:folder">
+    Import and module errors
+  </Card>
+  <Card title="Strict Mode" icon="warning">
+    Strict compiler options
+  </Card>
+</CardGrid>
